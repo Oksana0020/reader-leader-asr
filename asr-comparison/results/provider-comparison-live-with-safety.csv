@@ -1,0 +1,5 @@
+testCaseId,provider,status,policyResult,safetyPosture,evidenceClass,reason
+exact-001,reader_leader_mock,mock_only,teacher_review,teacher_governed,safe_local_mock,The supplied provider evidence is not safe for automatic child-facing action.
+accent-001,reader_leader_mock,mock_only,stay_silent,teacher_governed,safe_local_mock,"The evidence may reflect accent, dialect, or legitimate variation; the safe result is silence."
+speechace-001,speechace,live_vendor_eval,teacher_review,teacher_review_required,vendor_evidence,The supplied provider evidence is not safe for automatic child-facing action.
+soapbox-001,soapbox,live_vendor_eval,teacher_review,teacher_review_required,vendor_evidence,The supplied provider evidence is not safe for automatic child-facing action.

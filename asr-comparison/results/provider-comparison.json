@@ -1,0 +1,30 @@
+[
+  {
+    "testCaseId": "exact-001",
+    "provider": "reader_leader_mock",
+    "status": "mock_only",
+    "policyResult": "teacher_review",
+    "reason": "The supplied provider evidence is not safe for automatic child-facing action."
+  },
+  {
+    "testCaseId": "accent-001",
+    "provider": "reader_leader_mock",
+    "status": "mock_only",
+    "policyResult": "stay_silent",
+    "reason": "The evidence may reflect accent, dialect, or legitimate variation; the safe result is silence."
+  },
+  {
+    "testCaseId": "speechace-001",
+    "provider": "speechace",
+    "status": "live_vendor_eval",
+    "policyResult": "teacher_review",
+    "reason": "The supplied provider evidence is not safe for automatic child-facing action."
+  },
+  {
+    "testCaseId": "soapbox-001",
+    "provider": "soapbox",
+    "status": "live_vendor_eval",
+    "policyResult": "teacher_review",
+    "reason": "The supplied provider evidence is not safe for automatic child-facing action."
+  }
+]

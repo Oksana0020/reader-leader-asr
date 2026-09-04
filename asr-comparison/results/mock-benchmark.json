@@ -1,0 +1,48 @@
+[
+  {
+    "testCaseId": "exact-001",
+    "caseFamily": "exact_known_text",
+    "expectedPolicyOutcome": "teacher_review",
+    "providerStatus": "ok",
+    "tokens": [
+      {
+        "referenceToken": "the",
+        "heardToken": "the",
+        "startMs": 120,
+        "endMs": 220,
+        "vendorConfidence": 0.93,
+        "rawScore": 0.93,
+        "eventClass": "exact"
+      }
+    ],
+    "vendor": "mock",
+    "timing": {
+      "requestStartedAt": "2026-01-01T00:00:00.000Z",
+      "responseReceivedAt": "2026-01-01T00:00:00.050Z",
+      "endToEndMs": 50
+    }
+  },
+  {
+    "testCaseId": "accent-001",
+    "caseFamily": "accent_dialect_variation",
+    "expectedPolicyOutcome": "stay_silent",
+    "providerStatus": "ok",
+    "tokens": [
+      {
+        "referenceToken": "cat",
+        "heardToken": "kat",
+        "startMs": 1200,
+        "endMs": 1350,
+        "vendorConfidence": 0.81,
+        "rawScore": 0.81,
+        "eventClass": "variation"
+      }
+    ],
+    "vendor": "mock",
+    "timing": {
+      "requestStartedAt": "2026-01-01T00:00:00.000Z",
+      "responseReceivedAt": "2026-01-01T00:00:00.050Z",
+      "endToEndMs": 50
+    }
+  }
+]
